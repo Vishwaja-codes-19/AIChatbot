@@ -1,19 +1,18 @@
-**CodeAlpha AI Chatbot**
+**AI Chatbot**
 
-A Java-based rule-driven AI chatbot developed as part of the CodeAlpha Java Programming Internship.
+A Java-based rule-driven chatbot that uses text preprocessing, keyword matching, and a knowledge base to provide responses to user questions.
 
 **Features**
 
 - Interactive console-based communication
 - Rule-based chatbot responses
-- FAQ-based knowledge system
+- FAQ knowledge base
 - Text preprocessing
 - Keyword-based question matching
 - Java programming-related responses
 - OOP and DSA explanations
 - SQL and DBMS information
-- GitHub and CodeAlpha information
-- Internship-related responses
+- GitHub and programming-related responses
 - Continuous conversation until exit
 
 **Technologies Used**
@@ -23,11 +22,13 @@ A Java-based rule-driven AI chatbot developed as part of the CodeAlpha Java Prog
 - HashMap
 - Scanner
 - String Processing
+- Git & GitHub
 
 **Project Structure**
 
-CodeAlpha_AIChatbot/
-└── Main.java
+AI-Chatbot/
+├── Main.java
+└── README.md
 
 **How to Run**
 
@@ -49,6 +50,7 @@ java Main
 6. The conversation continues until the user enters an exit command.
 
 **Sample Questions**
+
 - Hi
 - What is Java?
 - Explain OOP
@@ -57,15 +59,18 @@ java Main
 - What is SQL?
 - What is DBMS?
 - What is GitHub?
-- Tell me about CodeAlpha
 - What is this project?
-- What is an internship?
+- What is programming?
 
 **Sample Output**
-Chatbot Conversation & FAQ Responses
 
-<img width="1240" height="897" alt="AIChatbot output" src="https://github.com/user-attachments/assets/04ca571d-1af5-4b50-8ee5-840658cae19e" />
+Chatbot Conversation
+
+FAQ Responses
+
+<img width="1117" height="582" alt="Ai op new" src="https://github.com/user-attachments/assets/f3cd619e-760f-4635-92c3-5d597ec891bf" />
 
 
-**Internship**
-Developed as part of the CodeAlpha Java Programming Internship.
+Learning Outcomes
+
+This project provided practical experience with Java, HashMap, string processing, text preprocessing, keyword matching, rule-based logic, and interactive console application development.
