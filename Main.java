@@ -16,7 +16,7 @@ public class Main {
         System.out.println("======================================");
         System.out.println("Bot: Hello! I am your Java chatbot.");
         System.out.println("Bot: Ask me about Java, OOP, DSA, SQL,");
-        System.out.println("Bot: GitHub, CodeAlpha, or programming.");
+        System.out.println("Bot: GitHub or programming.");
         System.out.println("Bot: Type 'bye' to exit.");
 
         while (true) {
@@ -64,11 +64,9 @@ public class Main {
         knowledgeBase.put("github",
                 "GitHub is a platform used to store, manage, and collaborate on software projects using Git.");
 
-        knowledgeBase.put("codealpha",
-                "CodeAlpha is the organization through which this Java internship project was developed.");
 
         knowledgeBase.put("internship",
-                "This chatbot was developed as part of a Java Programming Internship project.");
+                "This chatbot was developed as part of a Java Programming project.");
 
         knowledgeBase.put("programming",
                 "Programming is the process of writing instructions that a computer can execute.");
@@ -77,7 +75,7 @@ public class Main {
                 "This is a Java-based rule-driven chatbot that uses text preprocessing and a knowledge base to answer common questions.");
 
         knowledgeBase.put("help",
-                "You can ask me about Java, OOP, DSA, arrays, strings, SQL, DBMS, GitHub, CodeAlpha, internships, or programming.");
+                "You can ask me about Java, OOP, DSA, arrays, strings, SQL, DBMS, GitHub, internships, or programming.");
     }
 
     public static String getResponse(String input) {
